@@ -1,0 +1,164 @@
+
+body{
+    font-family: "Glegoo";
+}
+
+.header ul{
+    
+    list-style-type: none;
+}
+
+
+.header{
+    background-image: url(../images/healthyburgger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    width: 100px;
+    
+}
+
+.card-header{
+    padding:0;
+}
+
+.desktop-nav a{
+   color:rgb(95, 63, 40);
+}
+
+.contact1{
+    color:rgb(55, 21, 150);
+}
+
+.contact2{
+    color:rgb(150, 21, 21);
+}
+.order a{
+    color:white;
+    text-decoration:none;   
+}
+
+.order{
+    background-color:rgb(95, 63, 40);
+}
+
+
+
+.header-logo img{
+    width:100px;
+}
+#caption{
+    color:chocolate;
+}
+
+.sec2 img{
+    padding-left: 20px;
+    width:100%;
+}
+
+.imag2 img{
+    border-top: mediumblue;
+    
+}
+.sec2{
+
+    margin-top:50px;
+}
+#white{
+    font-size:17px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.mobile-nav select {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.marg{
+    margin-top:200px;
+    margin-left: 170px;
+}
+
+#caption{
+    color:white;
+}
+.desktop-nav{
+    padding-right: 50px;
+    display: inline;
+    
+}
+
+
+
+.header-nav{
+    border: none;
+    margin-top:15px;
+    background-color: white;
+}
+.but{
+    padding:20px;
+}
+
+.footer-logo img{
+
+     width:100px;  
+
+}
+
+.follo ul li{
+   
+    border-radius: 100px;
+    margin: 0 5px;
+}
+
+
+
+
+#imacaro1,#imacaro1,#imacaro1{
+    border-radius: 100%;
+    width:2%;
+}
+
+/*Galary page*/
+#capt{
+    font-size:200px;
+    font-weight:900;
+    color:red;
+  
+}
+
+.mobile-nav {
+    display: none;
+}
+
+ @media only screen and (max-width: 768px) {
+        .desktop-nav{
+            display: none;
+        }
+    
+        .mobile-nav{
+            display: block;
+        }
+        .chef-main{
+            display:none;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .desktop-nav{
+            display: none;
+        }
+    
+        .mobile-nav{
+            display: block;
+        }
+        
+    }
+    
